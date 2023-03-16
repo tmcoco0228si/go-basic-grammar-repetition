@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+
 // DataStoreインターフェースの定義
 type DataStore interface {
 	FetchData() ([]string, error)
